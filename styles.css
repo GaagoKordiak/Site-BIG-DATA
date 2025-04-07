@@ -1,0 +1,126 @@
+html,
+body {
+    overflow: auto;
+    scrollbar-width: none;
+    /* Para Firefox */
+    -ms-overflow-style: none;
+    /* Para Internet Explorer e Edge */
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Para Chrome, Safari e Edge */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza os elementos */
+    gap: 2rem;
+    /* Adiciona espaço entre os elementos */
+    width: 100%;
+    padding: 1rem;
+    background: #004080;
+    height: 30rem;
+}
+
+.top-bar .logo {
+    width: 20%;
+    height: auto;
+}
+
+.top-bar .buttons {
+    width: 15%;
+    display: flex;
+    gap: 1rem;
+}
+
+.top-bar .buttons button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.top-bar .buttons button:hover {
+    background: #ddd;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    image-rendering: high-quality;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #004080;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 48rem) {
+
+    .top-bar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .top-bar .logo {
+        width: 40%;
+        margin-bottom: 0.5rem;
+    }
+
+    .top-bar .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top-bar .buttons button {
+        margin: 0.3rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+}
