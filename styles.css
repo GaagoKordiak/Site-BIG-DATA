@@ -2,17 +2,14 @@ html,
 body {
     overflow: auto;
     scrollbar-width: none;
-    /* Para Firefox */
+    /* Firefox */
     -ms-overflow-style: none;
-    /* Para Internet Explorer e Edge */
+    /* IE e Edge */
 }
 
-h1 {
-    color: white;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 10px 0;
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari e Edge */
 }
 
 * {
@@ -23,19 +20,20 @@ h1 {
     overflow-x: hidden;
 }
 
-
-body::-webkit-scrollbar {
-    display: none;
-    /* Para Chrome, Safari e Edge */
-}
-
-
 body {
     font-family: Arial, sans-serif;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-size: 1.2rem;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
 }
 
 .container {
@@ -44,13 +42,12 @@ body {
     box-sizing: border-box;
 }
 
+/* ===== TOP BAR ===== */
 .top-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Centraliza os elementos */
     gap: 2rem;
-    /* Adiciona espaço entre os elementos */
     width: 100%;
     padding: 1rem;
     background: #004080;
@@ -81,6 +78,7 @@ body {
     background: #ddd;
 }
 
+/* ===== IMAGEM FULL WIDTH ===== */
 .full-width-image img {
     width: 100%;
     height: auto;
@@ -88,7 +86,52 @@ body {
     image-rendering: high-quality;
 }
 
+/* ===== TEXTO SOBRE IMAGEM ===== */
+.image-text-container {
+    position: relative;
+    width: 100%;
+}
 
+.image-text-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-content h1 {
+    font-size: 20rem;
+}
+
+.overlay-content h6 {
+    font-size: 10rem;
+}
+
+/* ===== BOTÃO VESTIBULAR ===== */
+.vestibular-btn {
+    background-color: #004080;
+    color: white;
+    border: none;
+    font-size: 10rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-style: bold;
+}
+
+.vestibular-btn:hover {
+    background-color: #003f87;
+}
+
+/* ===== RODAPÉ ===== */
 footer {
     text-align: center;
     padding: 1.5rem;
@@ -98,8 +141,8 @@ footer {
     font-size: 1.3rem;
 }
 
+/* ===== RESPONSIVO ===== */
 @media (max-width: 48rem) {
-
     .top-bar {
         flex-direction: column;
         align-items: center;
