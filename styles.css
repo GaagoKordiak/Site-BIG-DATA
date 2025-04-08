@@ -43,7 +43,6 @@ body {
     width: 100%;
     padding: 1rem;
     background: #004080;
-
     height: auto;
 }
 
@@ -58,25 +57,11 @@ body {
     gap: 1rem;
 }
 
-.top-bar .buttons button {
-    padding: 0.8rem 1.5rem;
-    font-size: 1.2rem;
-    border: none;
-    background: white;
-    cursor: pointer;
-    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
-}
-
-.top-bar .buttons button:hover {
-    background: #ddd;
-}
-
 /* ===== IMAGEM FULL WIDTH ===== */
 .full-width-image img {
     width: 100%;
     height: auto;
     display: block;
-    image-rendering: high-quality;
 }
 
 /* ===== TEXTO SOBRE IMAGEM ===== */
@@ -107,10 +92,9 @@ body {
     border: none;
     font-size: 1rem;
     padding: 1rem;
-
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .vestibular-btn:hover {
@@ -143,10 +127,6 @@ footer {
     .top-bar .buttons {
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .top-bar .buttons button {
-        margin: 0.3rem;
     }
 
     footer {
