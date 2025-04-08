@@ -43,7 +43,7 @@ body {
     width: 100%;
     padding: 1rem;
     background: #004080;
-    height: 30rem;
+    height: auto;
 }
 
 .top-bar .logo {
