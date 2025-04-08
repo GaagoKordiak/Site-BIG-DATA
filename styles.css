@@ -99,13 +99,12 @@ body {
     color: white;
 }
 
-
 /* ===== BOTÃO VESTIBULAR ===== */
 .vestibular-btn {
     background-color: #004080;
     color: white;
     border: none;
-    font-size: 10rem;
+    font-size: 1rem;
     padding: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
