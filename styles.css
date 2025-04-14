@@ -39,9 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
     width: 100%;
-    padding: 1rem;
     background: #004080;
     height: auto;
 }
@@ -55,6 +53,7 @@ body {
     width: 15%;
     display: flex;
     color: white;
+
 }
 
 /* ===== IMAGEM FULL WIDTH ===== */
@@ -104,11 +103,8 @@ body {
 /* ===== RODAPÉ ===== */
 footer {
     text-align: center;
-    padding: 1.5rem;
     background: #004080;
     color: white;
-    margin-top: 1.5rem;
-    font-size: 1.3rem;
 }
 
 /* ===== RESPONSIVO ===== */
