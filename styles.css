@@ -54,7 +54,7 @@ body {
 .top-bar .buttons {
     width: 15%;
     display: flex;
-    gap: 1rem;
+    color: white;
 }
 
 /* ===== IMAGEM FULL WIDTH ===== */
