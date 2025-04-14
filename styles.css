@@ -101,6 +101,7 @@ body {
 }
 
 .image-side {
+    width: 50%;
     flex: 1;
     background-color: #ccc;
     /* Aqui vai sua imagem */
@@ -109,10 +110,10 @@ body {
 }
 
 .text-side {
+    width: 50%;
     flex: 1;
     background-color: #1E5A93;
     color: white;
-    padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
