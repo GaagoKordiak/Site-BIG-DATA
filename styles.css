@@ -124,40 +124,60 @@ body {
 .segundaparte {
     display: flex;
     width: 100%;
-    height: 100vh;
+    min-height: 500px;
 }
 
 .image-side {
     width: 50%;
-    flex: 1;
-    background-color: #ccc;
-    justify-content: space-between;
+}
+
+.image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .text-side {
     width: 50%;
-    flex: 1;
-    background-color: #1E5A93;
+    background-color: #2E6B9A;
     color: white;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .text-side h2 {
     font-size: 28px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .text-side .highlight {
     font-weight: bold;
-    color: #FDD835;
-
+    color: #FFD700;
+    /* amarelo para destacar */
+    margin-bottom: 20px;
 }
 
 .text-side p {
-    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
+
+.vestibular-btn {
+    background-color: white;
+    color: #2E6B9A;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: start;
+}
+
 
 /* ===== RODAPÉ ===== */
 footer {
