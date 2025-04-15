@@ -71,14 +71,12 @@ body {
 }
 
 
-/* ===== IMAGEM FULL WIDTH ===== */
-.full-width-image img {
+.full-width-image {
     width: 100%;
-    height: auto;
-    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
-/* ===== TEXTO SOBRE IMAGEM ===== */
 .image-text-container {
     position: relative;
     width: 100%;
@@ -92,28 +90,35 @@ body {
 
 .overlay-content {
     position: absolute;
-    top: 80%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
     color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* ===== BOTÃO VESTIBULAR ===== */
-.vestibular-btn {
-    background-color: #004080;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    padding: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.overlay-content h1 {
+    font-size: 36px;
     font-weight: bold;
+    margin: 0 0 10px 0;
 }
 
-.vestibular-btn:hover {
-    background-color: #003f87;
+.overlay-content h3 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
 }
+
+.vestibular-btn {
+    background-color: #2E6B9A;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 
 .segundaparte {
