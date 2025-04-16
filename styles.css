@@ -178,6 +178,48 @@ body {
     align-self: start;
 }
 
+/* ===== PROFESSORES ===== */
+
+.professores {
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.professores h2 {
+    color: #003366;
+    margin-bottom: 0.2rem;
+}
+
+.professores p {
+    color: #006699;
+    margin-bottom: 1rem;
+}
+
+.grid-professores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: #f0f8ff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.nome {
+    background-color: #003366;
+    color: white;
+    padding: 0.5rem;
+}
+
 
 /* ===== RODAPÉ ===== */
 footer {
