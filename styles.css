@@ -232,6 +232,58 @@ body {
     padding: 4px 0;
 }
 
+/* ===== Mercado de trabalho =====*/
+
+.mercado-trabalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.text-content {
+    max-width: 400px;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ffcc00;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #305682;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffcc00;
+    color: #305682;
+}
+
+.image-content img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+
 
 
 /* ===== RODAPÉ ===== */
