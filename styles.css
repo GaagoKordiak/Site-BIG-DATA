@@ -238,28 +238,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    background-color: #305682;
+    /* azul de fundo */
+    padding: 60px 40px;
     gap: 40px;
 }
 
 .text-content {
     max-width: 400px;
+    color: white;
 }
 
 .text-content h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .highlight {
-    color: #ffcc00;
     font-weight: bold;
+    color: #FFC107;
+    /* amarelo bonito */
     margin-bottom: 20px;
 }
 
 .text-content p {
     margin-bottom: 20px;
     line-height: 1.5;
+    font-size: 1rem;
 }
 
 .button {
@@ -267,14 +273,17 @@ body {
     padding: 10px 20px;
     background-color: white;
     color: #305682;
+    border: 2px solid #305682;
     text-decoration: none;
     font-weight: bold;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .button:hover {
-    background-color: #ffcc00;
+    background-color: #FFC107;
+    border-color: #FFC107;
     color: #305682;
 }
 
