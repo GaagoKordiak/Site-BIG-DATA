@@ -355,6 +355,95 @@ body {
     background-color: #1c4565;
 }
 
+/* ===== BOLINHA =====*/
+
+section.bolinha {
+    background: #f4f4f4;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  section.bolinha .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  section.bolinha .left-box {
+    width: 45%;
+  }
+  
+  section.bolinha .left-box h2 {
+    background-color: #1d4b7f;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  section.bolinha .left-box p {
+    margin-top: 20px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  section.bolinha .right-box {
+    width: 50%;
+    position: relative;
+  }
+  
+  section.bolinha .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px dashed #ccc;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  section.bolinha .circle img {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+  }
+  
+  section.bolinha .step {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #1d4b7f;
+  }
+  
+  section.bolinha .bolinha-num {
+    background-color: #1d4b7f;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  /* Posicionamento dos steps */
+  section.bolinha .s1 { top: -10px; left: 110px; }
+  section.bolinha .s2 { top: 50px; right: -30px; }
+  section.bolinha .s3 { top: 130px; right: -50px; }
+  section.bolinha .s4 { bottom: 50px; right: -20px; }
+  section.bolinha .s5 { bottom: -10px; left: 100px; }
+  
+
+
 /* ===== RODAPÉ ===== */
 footer {
     text-align: center;
