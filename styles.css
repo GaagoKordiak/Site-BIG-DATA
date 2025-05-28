@@ -97,6 +97,9 @@ body {
   transform: translateY(-50%);
   color: white;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  overflow: visible; /* Garante que o conteúdo não "vaze" nem crie scroll */
+  max-width: 90%; /* Garante que o texto não passe da imagem */
+  white-space: normal; /* Quebra linhas normalmente */
 }
 
 .overlay-content h1 {
