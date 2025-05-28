@@ -49,18 +49,33 @@
     </div>
   </section>
 
-  <section class="professores">
+  <section class="professores-carousel">
     <h2>Professores</h2>
     <p>Conheça nossos docentes</p>
-    <div class="grid-professores">
-      <!-- Repita este bloco para cada professor real -->
-      <div class="card">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fpessoa_1373255&psig=AOvVaw1LtQJ027bmkFPdfNpE1Cnj&ust=1748546880022000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCnufDyxo0DFQAAAAAdAAAAABAE" alt="Foto do Professor Fulano" loading="lazy" />
-        <div class="nome">Prof. Fulano</div>
-        <!-- Comente aqui: Substitua "professor1.jpg" e nome -->
+  
+    <div class="carousel-container">
+      <button class="carousel-button prev">&#10094;</button>
+  
+      <div class="carousel-track">
+        <div class="carousel-card">
+          <img src="Images/professor1.jpg" alt="Prof. Fulano" loading="lazy" />
+          <div class="nome">Prof. Fulano</div>
+        </div>
+        <div class="carousel-card">
+          <img src="Images/professor2.jpg" alt="Prof. Beltrano" loading="lazy" />
+          <div class="nome">Prof. Beltrano</div>
+        </div>
+        <div class="carousel-card">
+          <img src="Images/professor3.jpg" alt="Prof. Ciclano" loading="lazy" />
+          <div class="nome">Prof. Ciclano</div>
+        </div>
+        <!-- Adicione mais conforme necessário -->
       </div>
+  
+      <button class="carousel-button next">&#10095;</button>
     </div>
   </section>
+  
 
   <section id="mercado" class="mercado-trabalho">
     <div class="text-content">
@@ -126,5 +141,6 @@
     </div>
   </footer>
 
+  <script src="carousel.js"></script>
 </body>
 </html>
