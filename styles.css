@@ -470,10 +470,34 @@ section.bolinha .s5 {
 }
 
 /* ===== RODAPÉ ===== */
-footer {
-  text-align: center;
-  background: #004080;
+.novo-rodape {
+  background-color: #2e6b9a;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+}
+
+.novo-rodape .footer-logo img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.novo-rodape .footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.novo-rodape .footer-links a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.novo-rodape .footer-links a:hover {
+  text-decoration: underline;
 }
 
 /* ===== RESPONSIVO ===== */
