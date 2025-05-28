@@ -530,6 +530,7 @@ section.bolinha .s5 {
 
 .carousel-track {
   display: flex;
+  justify-content: center; /* Isso centraliza os cards */
   transition: transform 0.5s ease-in-out;
   gap: 20px;
 }
