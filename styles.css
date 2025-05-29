@@ -471,17 +471,33 @@ section.bolinha .s5 {
 
 /* ==== Agro section ==== */
 .agro-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("Images/FaleConosco.jpg") no-repeat center center/cover;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-  background-color: #1a1a1a;
+  justify-content: center;
   color: #fff;
+  text-align: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .agro-content {
-  max-width: 500px;
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
 }
 
 .agro-content h1 {
@@ -503,13 +519,6 @@ section.bolinha .s5 {
 
 .agro-content ul li {
   margin-bottom: 10px;
-}
-
-.agro-image img {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
 
 /* ===== RODAPÉ ===== */
@@ -543,13 +552,8 @@ section.bolinha .s5 {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .agro-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .agro-content {
-    margin-bottom: 30px;
+    text-align: center;
   }
 }
 
