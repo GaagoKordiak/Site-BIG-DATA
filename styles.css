@@ -476,12 +476,17 @@ section.bolinha .s5 {
   min-height: 100vh;
   background: url("Images/FaleConosco.jpg") no-repeat center center/cover;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* mantém conteúdo na vertical central */
+  justify-content: flex-start; /* alinha à esquerda */
   color: #fff;
-  text-align: left;
-  padding: 50px;
+  padding: 50px 10%; /* padding lateral: 10% */
   box-sizing: border-box;
+}
+
+.agro-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
 }
 
 .overlay {
@@ -492,12 +497,6 @@ section.bolinha .s5 {
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
-}
-
-.agro-content {
-  position: relative;
-  z-index: 2;
-  max-width: 600px;
 }
 
 .agro-content h1 {
