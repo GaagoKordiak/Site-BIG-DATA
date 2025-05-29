@@ -448,24 +448,24 @@ section.bolinha .bolinha-num {
 /* Posição dos steps ao redor do círculo */
 section.bolinha .s1 {
   top: -20px;
-  left: 0%;
+  left: 100%;
   transform: translateX(-50%);
 }
 section.bolinha .s2 {
   top: 30px;
-  right: -160px;
+  right: -210px;
 }
 section.bolinha .s3 {
   top: 120px;
-  right: -120px;
+  right: -240px;
 }
 section.bolinha .s4 {
   bottom: 30px;
-  right: -150px;
+  right: -210px;
 }
 section.bolinha .s5 {
   bottom: -20px;
-  left: 50%;
+  left: 100%;
   transform: translateX(-50%);
 }
 
