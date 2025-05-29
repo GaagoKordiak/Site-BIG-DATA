@@ -448,7 +448,7 @@ section.bolinha .bolinha-num {
 /* Posição dos steps ao redor do círculo */
 section.bolinha .s1 {
   top: -20px;
-  left: 50%;
+  left: 0%;
   transform: translateX(-50%);
 }
 section.bolinha .s2 {
@@ -457,7 +457,7 @@ section.bolinha .s2 {
 }
 section.bolinha .s3 {
   top: 120px;
-  right: -180px;
+  right: -120px;
 }
 section.bolinha .s4 {
   bottom: 30px;
